@@ -26,6 +26,7 @@ var _getPlaylistsByChannelId = function(channelid) {
 		success : handleResponse,
 		error : handleError,
 	})).send();
+	return defer;
 };
 
 var _getVideosByplaylistId = function(playlistid) {
@@ -50,6 +51,7 @@ var _getVideosByplaylistId = function(playlistid) {
 		success : handleResponse,
 		error : handleError,
 	})).send();
+	return defer;
 };
 
 var getUrlById = function(id) {
@@ -59,6 +61,7 @@ var getUrlById = function(id) {
 	}, function onError(e) {
 		Ti.API.error(e);
 	});
+	return defer;
 };
 
 exports.getPlaylistsByChannelId = _getPlaylistsByChannelId;
