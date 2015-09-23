@@ -19,6 +19,8 @@
     "titaniumsdk": ">= 3.3.0"
   },
    "nativeDependencies": {
+       "./lib/ts.httprequest" : "*",
+       "./lib/ti.promises" : "*"
   },
   "keywords": [
     "Titanium","Appcelerator","AppWerft"

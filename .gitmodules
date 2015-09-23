@@ -1,9 +1,9 @@
 [submodule "lib/ts.videoprovider"]
 	path = lib/ts.videoprovider
 	url = https://github.com/TheSmiths-Widgets/ts.videoprovider
-[submodule "lib/ti.promises"]
-	path = lib/ti.promises
-	url = https://github.com/sukima/promises-titanium
 [submodule "lib/ts.httprequest"]
 	path = lib/ts.httprequest
 	url = https://github.com/TheSmiths-Widgets/ts.httprequest
+[submodule "lib/org.favo.promise"]
+	path = lib/org.favo.promise
+	url = https://github.com/ifavo/org.favo.promise/1.0.0

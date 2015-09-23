@@ -1,6 +1,6 @@
-var HTTPRequest = require('./lib/ts.httprequest');
-var VideoProvider = require('./lib/ts.videoprovider');
-var Promise = require('./lib/ti.promises');
+var HTTPRequest = require('./lib/ts.httprequest/ts.httprequest');
+var VideoProvider = require('./lib/ts.videoprovider/ts.videoprovider');
+var Promise = require('./lib/org.favo.promise');
 
 var GOOGLEAPIKEY = Ti.App.Properties.getString('GOOGLEAPIKEY');
 const ENDPOINT = 'https://www.googleapis.com/youtube/v3/';
