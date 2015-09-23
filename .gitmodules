@@ -1,9 +1,12 @@
 [submodule "ts.httprequest"]
-    path = lib/ts.httprequest
-    url = https://github.com/TheSmiths-Widgets/ts.httprequest
+	path = ts.httprequest
+	url = https://github.com/TheSmiths-Widgets/ts.httprequest
 [submodule "ts.videoprovider"] 
     path = lib/ts.videoprovider
     url = https://github.com/TheSmiths-Widhet/ts.videoprovider
 [submodule "ti.promises"]
     path = lib/ti.promises
     url = https://github.com/sukima/promises-titanium   
+[submodule "promises-titanium"]
+	path = promises-titanium
+	url = https://github.com/sukima/promises-titanium
