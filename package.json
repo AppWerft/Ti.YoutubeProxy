@@ -1,0 +1,32 @@
+{
+  "name": "Ti.YoutubeProxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ti.youtubeproxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AppWerft/Ti.YoutubeProxy.git"
+  },
+  "titaniumManifest": {
+   "name": "Ti.YoutubeProxy",
+   "moduleid" : "ti.youtubeproxy",
+   "guid": "30dc3aaa-cd6f-de94-f361-31c199531c91"
+  },
+  "engines": {
+    "titaniumsdk": ">= 3.3.0"
+  },
+   "nativeDependencies": {
+  },
+  "keywords": [
+    "Titanium","Appcelerator","AppWerft"
+  ],
+  "author": "Rainer Schleevoigt, Stefan Gross",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/AppWerft/TiJSPDF/issues"
+  },
+  "homepage": "https://github.com/AppWerft/TiJSPDF"
+}
