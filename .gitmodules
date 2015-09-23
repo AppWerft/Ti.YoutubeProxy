@@ -1,18 +1,3 @@
-[submodule "ts.httprequest"]
-	path = ts.httprequest
-	url = https://github.com/TheSmiths-Widgets/ts.httprequest
-[submodule "ts.videoprovider"] 
-	path = ts.videoprovider
-	url = https://github.com/TheSmiths-Widgets/ts.videoprovider
-[submodule "ti.promises"]
-    path = lib/ti.promises
-    url = https://github.com/sukima/promises-titanium   
-[submodule "promises-titanium"]
-	path = promises-titanium
-	url = https://github.com/sukima/promises-titanium
-[submodule "lib"]
-	path = lib
-	url = https://github.com/TheSmiths-Widgets/ts.videoprovider
 [submodule "lib/ts.videoprovider"]
 	path = lib/ts.videoprovider
 	url = https://github.com/TheSmiths-Widgets/ts.videoprovider
