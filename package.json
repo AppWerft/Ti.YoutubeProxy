@@ -18,8 +18,9 @@
   "engines": {
     "titaniumsdk": ">= 3.3.0"
   },
-   "nativeDependencies": {
+  "nativeDependencies": {
        "./lib/ts.httprequest" : "*",
+       "./lib/ts.videoprovider" :"*",
        "./lib/ti.promises" : "*"
   },
   "keywords": [
