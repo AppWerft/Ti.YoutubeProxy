@@ -12,7 +12,7 @@ YT.getPlaylistsByChannelId('abcd').then(function(_res) {
 });
 
 
-var player = Ti.Media.createMediaPlayer({/*some pretty properties*/});
+var player = Ti.Media.createVideoPlayer({/*some pretty properties*/});
 YT.getUrlById('youtubeid')then(function(_url){
     player.setUrl(_url);
 });
