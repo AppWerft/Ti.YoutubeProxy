@@ -54,7 +54,7 @@ var _getVideosByplaylistId = function(playlistid) {
 	return defer;
 };
 
-var getUrlById = function(id) {
+var _getUrlById = function(id) {
 	var defer = Promise.defer();
 	VideoProvider.getVideoUrl('youtube', id).then(function onSuccess(url) {
 		defer.resolve(url);
